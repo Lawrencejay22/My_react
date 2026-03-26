@@ -3,15 +3,13 @@ import Footer from '../components/Footer';
 import useTypingEffect from '../hooks/useTypingEffect';
 import profilePhoto from '../assets/images/FB_IMG_1756519957571.jpg';
 import '../styles/global.css';
-
 const Home = () => {
   const roles = ["UI/UX Designer", "Graphic Designer", "Web Designer", "Creative Thinker"];
   const typingText = useTypingEffect(roles, 110, 75, 1000);
 
-  const handleLetsTalk = () => {
+const handleLetsTalk = () => {
     window.location.href = 'mailto:gabionzalawrencejay@gmail.com?subject=Project Inquiry&body=Hi Lawrence, I\'d like to discuss...';
   };
-
   return (
     <>
       <Header />
@@ -27,7 +25,6 @@ const Home = () => {
             Let's Talk
           </button>
         </div>
-
         <div className="profile-photo">
           <img src={profilePhoto} alt="Profile Photo" />
         </div>
@@ -35,7 +32,6 @@ const Home = () => {
       <section className="services">
         <h3>My Services</h3>
         <h2>What I Do</h2>
-
         <div className="service-boxes">
           <div className="service-card">
             <div className="icon">🧩</div>
@@ -48,7 +44,6 @@ const Home = () => {
             <h4>Graphic Designer</h4>
             <p>From logos to full brand identity, I create cohesive and visually striking designs.</p>
           </div>
-
           <div className="service-card">
             <div className="icon">💻</div>
             <h4>Web Designer</h4>
@@ -57,7 +52,6 @@ const Home = () => {
         </div>
         <br />
       </section>
-
       <Footer />
     </>
   );
