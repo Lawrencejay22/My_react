@@ -15,8 +15,6 @@ const Home = () => {
   return (
     <>
       <Header />
-      
-      {/* Hero Section */}
       <section className="hero">
         <div className="intro-text">
           <h1>I'm <span>LJAY T GABIO</span></h1>
@@ -34,8 +32,6 @@ const Home = () => {
           <img src={profilePhoto} alt="Profile Photo" />
         </div>
       </section>
-
-      {/* Services Section */}
       <section className="services">
         <h3>My Services</h3>
         <h2>What I Do</h2>
