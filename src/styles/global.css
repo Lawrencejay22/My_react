@@ -1,6 +1,3 @@
-/* ===============================
-    GLOBAL STYLES
-==================================*/
 * {
     margin: 0;
     padding: 0;
@@ -13,10 +10,6 @@ body {
     color: #e3e8f4;
     line-height: 1.6;
 }
-
-/* ===============================
-    HEADER (Desktop Base Styles)
-==================================*/
 .header {
     display: flex;
     justify-content: space-between;
@@ -30,8 +23,6 @@ body {
     width: 100%;
     z-index: 100;
 }
-
-/* ----- Logo ----- */
 .logo {
     display: flex;
     align-items: center;
@@ -52,7 +43,6 @@ body {
     border: 2px solid #00d9ff;
 }
 
-/* ----- Navigation (Desktop) ----- */
 .nav ul {
     list-style: none;
     display: flex;
@@ -71,7 +61,6 @@ body {
     color: #7afcff;
 }
 
-/* ----- Social Icons ----- */
 .social-icons ul {
     list-style: none;
     display: flex;
@@ -82,7 +71,6 @@ body {
 .social-icons li {
     display: inline-block;
 }
-
 .social-icons a {
     display: inline-flex;
     align-items: center;
@@ -103,7 +91,6 @@ body {
     background: linear-gradient(135deg, #8263ff, #00d9ff);
 }
 
-/* ----- Mobile Menu Button (Hidden on Desktop) ----- */
 .menu-toggle {
     display: none;
     border: none;
@@ -113,10 +100,6 @@ body {
     cursor: pointer;
     z-index: 150;
 }
-
-/* ===============================
-    HERO SECTION
-==================================*/
 .hero {
     padding-top: 100px;
     display: flex;
@@ -129,13 +112,10 @@ body {
     background-color: #0a0f1f;
     gap: 60px;
 }
-
-/* ----- Intro Text ----- */
 .intro-text {
     flex: 1;
     max-width: 50%;
 }
-
 .intro-text h1 {
     font-size: 2.5rem;
 }
@@ -163,7 +143,6 @@ body {
 .intro-text p {
     margin-bottom: 20px;
 }
-
 .btn-primary {
     background: linear-gradient(90deg, #00d9ff, #8263ff);
     border: none;
@@ -181,8 +160,6 @@ body {
     transform: translateY(-3px);
     box-shadow: 0 0 15px rgba(0, 217, 255, 0.4);
 }
-
-/* ----- Profile Photo (Right) ----- */
 .profile-photo {
     flex: 1;
     display: flex;
@@ -206,9 +183,6 @@ body {
     box-shadow: 0 0 40px rgba(0, 217, 255, 0.5);
 }
 
-/* ===============================
-    SERVICES SECTION
-==================================*/
 .services {
     padding: 80px 10%;
     text-align: center;
@@ -229,7 +203,6 @@ body {
     color: #e3e8f4;
 }
 
-/* ----- Service Boxes ----- */
 .service-boxes {
     display: flex;
     justify-content: space-between;
@@ -253,7 +226,6 @@ body {
     box-shadow: 0 0 20px rgba(0, 217, 255, 0.2);
 }
 
-/* ----- Service Icons ----- */
 .icon {
     font-size: 2rem;
     background: linear-gradient(90deg, #00d9ff, #8263ff);
@@ -262,9 +234,6 @@ body {
     margin-bottom: 15px;
 }
 
-/* ===============================
-    FOOTER
-==================================*/
 footer {
     background: hsl(226, 42%, 12%);
     text-align: center;
@@ -273,9 +242,6 @@ footer {
     font-size: 0.9rem;
 }
 
-/* ===============================
-    SKILLS SECTION
-==================================*/
 .skills-section {
     max-width: 1100px;
     margin: 4rem auto;
@@ -298,7 +264,6 @@ footer {
     margin-bottom: 2.5rem;
 }
 
-/* ----- Skill Info ----- */
 .skill {
     display: flex;
     align-items: flex-start;
@@ -325,10 +290,6 @@ footer {
     color: #a4b4e0;
     font-size: 0.95rem;
 }
-
-/* ===============================
-   GRAPH DASHBOARD
-==================================*/
 .graph-dashboard {
     max-width: 1100px;
     margin: 4rem auto;
@@ -350,8 +311,6 @@ footer {
     -webkit-text-fill-color: transparent;
     margin-bottom: 2rem;
 }
-
-/* ----- Graph Grid ----- */
 .graph-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -372,8 +331,6 @@ footer {
     box-shadow: 0 0 30px rgba(0, 217, 255, 0.3);
     border-color: rgba(0, 217, 255, 0.5);
 }
-
-/* ----- Graph Bars ----- */
 .graph {
     display: flex;
     flex-direction: column;
@@ -397,8 +354,6 @@ footer {
     border-radius: 10px;
     transition: width 2.5s ease-out, box-shadow 0.5s ease;
 }
-
-/* ----- Enhanced Color Bars with Glow ----- */
 .red {
     background: linear-gradient(90deg, #ff4b4b, #ff6f6f);
     box-shadow: 0 0 15px rgba(255, 75, 75, 0.4);
@@ -424,10 +379,6 @@ footer {
     font-weight: 600;
     color: #a4b4e0;
 }
-
-/* ===============================
-    CONTACT SECTION
-==================================*/
 .contact-section {
     background: #11172a;
     border: 1px solid rgba(0, 217, 255, 0.3);
@@ -439,8 +390,6 @@ footer {
     box-shadow: 0 0 30px rgba(0, 217, 255, 0.1);
     text-align: center;
 }
-
-/* ----- Title ----- */
 .contact-section h1 {
     font-size: 2rem;
     background: linear-gradient(90deg, #00d9ff, #8263ff);
@@ -453,10 +402,6 @@ footer {
     color: #a4b4e0;
     margin-bottom: 25px;
 }
-
-/* ===============================
-    FORM
-==================================*/
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -493,10 +438,6 @@ textarea:focus {
     outline: none;
     box-shadow: 0 0 8px rgba(0, 217, 255, 0.4);
 }
-
-/* ===============================
-    POPUP MESSAGE STYLES
-==================================*/
 .popup-message {
     position: fixed;
     bottom: 30px;
@@ -522,10 +463,6 @@ textarea:focus {
     background: linear-gradient(90deg, #ff5f6d, #ffc371);
     box-shadow: 0 0 25px rgba(255, 95, 109, 0.4);
 }
-
-/* ===============================
-    RESUME LAYOUT
-==================================*/
 .resume-content {
     max-width: 1000px;
     margin: 120px auto 40px auto;
@@ -544,8 +481,6 @@ textarea:focus {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     margin: 20px 0;
 }
-
-/* --- Hero Section Styling (Top Header) --- */
 .hero-section {
     display: flex;
     justify-content: space-between;
@@ -589,8 +524,6 @@ textarea:focus {
     margin-right: 10px;
     color: #f1fa8c;
 }
-
-/* --- Experience & Education/Certification Styling --- */
 .job-entry,
 .education-entry {
     margin-bottom: 15px;
@@ -616,7 +549,6 @@ textarea:focus {
     margin: 3px 0;
 }
 
-/* Two-column layout for Education and Certification */
 .education-certification-group {
     display: flex;
     gap: 40px;
@@ -650,9 +582,6 @@ textarea:focus {
     margin-left: -1em;
 }
 
-/* ===============================
-    SKILL PROFICIENCY BARS
-==================================*/
 .skills-section-resume {
     padding: 20px;
     background-color: #282a36;
@@ -690,7 +619,6 @@ textarea:focus {
     font-weight: 600;
 }
 
-/* ----- Skill Bar Colors ----- */
 .progress-bar.html,
 .progress-bar.css {
     background: linear-gradient(90deg, #50fa7b, #50fa7b);
@@ -728,7 +656,6 @@ textarea:focus {
     background: linear-gradient(90deg, #a4b4e0, #a4b4e0);
 }
 
-/* ----- Other Skills List ----- */
 .other-skills h3 {
     color: #f1fa8c;
     margin-top: 30px;
@@ -747,9 +674,6 @@ textarea:focus {
     color: #bd93f9;
 }
 
-/* ===============================
-    RESPONSIVE DESIGN (Tablet - 992px)
-==================================*/
 @media (max-width: 992px) {
     .hero {
         flex-direction: column;
@@ -787,15 +711,10 @@ textarea:focus {
     }
 }
 
-/* ===============================
-    RESPONSIVE DESIGN (Mobile - 768px and below)
-==================================*/
 @media (max-width: 768px) {
     .header {
         padding: 15px 5%;
     }
-
-    /* Mobile Menu Setup */
     .menu-toggle {
         display: block;
     }
@@ -814,7 +733,6 @@ textarea:focus {
         align-items: center;
         justify-content: center;
     }
-
     .nav.show-menu {
         left: 0;
     }
@@ -832,8 +750,6 @@ textarea:focus {
     .social-icons {
         display: none;
     }
-
-    /* Hero Section Adjustments */
     .hero {
         flex-direction: column;
         text-align: center;
@@ -855,8 +771,6 @@ textarea:focus {
         width: 250px;
         height: 260px;
     }
-
-    /* Services Section Adjustments */
     .services {
         padding: 50px 5%;
     }
@@ -870,8 +784,6 @@ textarea:focus {
         flex: 1 1 100%;
         max-width: 400px;
     }
-
-    /* Resume Content Responsiveness */
     .resume-content {
         margin-top: 80px;
         padding: 15px;
@@ -939,8 +851,6 @@ textarea:focus {
     .certification-section h2 {
         margin-top: 10px;
     }
-
-    /* Skills Section */
     .skills-section,
     .graph-dashboard {
         margin: 2rem 1rem;
