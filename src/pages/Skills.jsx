@@ -8,16 +8,7 @@ const Skills = () => {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setAnimatedBars({
-        html: true,
-        css: true,
-        php: true,
-        javascript: true,
-        react: true,
-        vite: true,
-        mongodb: true,
-        nodejs: true,
-        express: true,
+      setAnimatedBars({ html: true, css: true, php: true, javascript: true, react: true, vite: true, mongodb: true, nodejs: true, express: true,
       });
     }, 300);
 
@@ -80,26 +71,19 @@ const Skills = () => {
   };
 
   const frontendSkills = [
-    { name: 'HTML', percent: 90 },
-    { name: 'CSS', percent: 90 },
-    { name: 'JavaScript', percent: 50 },
-    { name: 'React', percent: 60 },
+    { name: 'HTML', percent: 90 }, { name: 'CSS', percent: 90 }, { name: 'JavaScript', percent: 50 }, { name: 'React', percent: 60 },
     { name: 'vite', percent: 30 }
   ];
 
   const backendSkills = [
-    { name: 'PHP', percent: 40 },
-    { name: 'MongoDB', percent: 50 },
-    { name: 'Nodejs', percent: 40 },
+    { name: 'PHP', percent: 40 }, { name: 'MongoDB', percent: 50 },{ name: 'Nodejs', percent: 40 },
     { name: 'Express', percent: 50 },
   ];
 
   return (
     <>
       <Header />
-
       <main>
-        {/* Skills Section */}
         <section className="skills-section">
           <h1 className="section-title">My Technical Experience</h1>
 
@@ -113,8 +97,6 @@ const Skills = () => {
             </div>
           ))}
         </section>
-
-        {/* Graph Dashboard Section */}
         <section className="graph-dashboard">
           <h2 className="dashboard-title">Skill Proficiency Overview</h2>
           <h1 className='dashboard-title'> Frontend Skills</h1>
